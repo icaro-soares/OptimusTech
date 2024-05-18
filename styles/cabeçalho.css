@@ -1,0 +1,61 @@
+.cabecalho {
+    margin: 1em 5em 0 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+
+.cabecalho-logo__empresa{
+    width: 27px;
+    height: 27px;
+}
+
+.cabecalho-logo__nome {
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cabecalho__nav,
+.cabecalho__links {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.cabecalho-nav__link,
+.cabecalho-links__botao {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cinza-claro);
+}
+
+.cabecalho-nav__link:hover {
+    border-bottom: 1px solid var(--cinza-claro);
+    padding: .5em;
+}
+
+.cabecalho-links__botao:hover {
+    color: var(--cor-botao);
+}
+
+.botao-colorido {
+    width: 112px;
+    text-align: center;
+    border-radius: 8px;
+    background: var(--cor-botao);
+    color: var(--branca);
+    padding: .5em 1em;
+}
+
+.botao-colorido:hover {
+    background-color: transparent;
+}
